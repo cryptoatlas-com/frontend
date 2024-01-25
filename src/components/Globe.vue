@@ -8,7 +8,7 @@ import * as THREE from 'three';
 import { Globe } from 'three-globe';
 
 export default {
-  name: 'Globe',
+  name: 'GlobeComponent',
   setup() {
     const globeContainer = ref(null);
 
