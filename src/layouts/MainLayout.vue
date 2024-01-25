@@ -26,6 +26,14 @@
           :key="link.title"
           v-bind="link"
         />
+        <q-item clickable tag="a" v-ripple>
+          <q-item-section>
+            <q-item-label>Globe Page</q-item-label>
+            <q-item-label caption>
+              <router-link to="/globe">Go to Globe Page</router-link>
+            </q-item-label>
+          </q-item-section>
+        </q-item>
       </q-list>
     </q-drawer>
 
