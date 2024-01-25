@@ -6,6 +6,7 @@
       :todos="todos"
       :meta="meta"
     ></example-component>
+    <router-link to="/globe">Go to Globe Page</router-link>
   </q-page>
 </template>
 
